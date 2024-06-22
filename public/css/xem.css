@@ -1,0 +1,46 @@
+td {
+    padding: 12px 7px; /* Khoảng cách giữa nội dung và viền */
+    text-align: center; /* Căn lề nội dung sang trái */
+}
+  
+.th1{
+    padding: 5px 7px;
+    text-align: center;
+    background-color: #78C1F3;
+}
+
+td a{
+    text-decoration: none;
+    color: #333;
+}
+
+td a:hover{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+}
+
+th:not(:last-child),
+td:not(:last-child) {
+    border-right: 1px solid #fff; /* Viền bên phải của các ô, trừ ô cuối cùng */
+}
+  
+tr:nth-child(even) {
+    background-color: #F8FDCF; /* Màu nền xen kẽ cho các hàng */
+}
+  
+tr:hover {
+    background-color: #9BE8D8; /* Màu nền khi di chuột qua */
+}
+  
+.currency {
+    font-weight: bold;
+    color: #333; /* Màu của đơn vị tiền tệ */
+    line-height: 1; /* Đặt chiều cao dòng bằng với kích thước của chữ */
+    margin-left: 2px; /* Khoảng cách giữa số và đơn vị tiền tệ */
+}
+
+.gray-background {
+    background-color: #f2f2f2;
+}

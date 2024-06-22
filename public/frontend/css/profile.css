@@ -1,0 +1,39 @@
+.main{
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar{
+    background-color: whitesmoke;
+    color: white;
+    height: auto;
+    border-radius: 5px;
+    height: 450px;
+}
+
+.sidebar a{
+    margin-left: 10px;
+    display: block;
+    color: black;
+    padding-bottom: 10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.sidebar img{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.card{
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 450px;
+}

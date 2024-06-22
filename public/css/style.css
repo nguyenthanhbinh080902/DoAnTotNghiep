@@ -1,0 +1,131 @@
+body {
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+background-color: #fff; /* Nền trắng */
+}
+
+.container {
+display: flex;
+}
+
+.sidebar {
+width: 200px;
+height: 100vh;
+background-color: #dddddd; /* Nền đen */
+color: #333; /* Chữ trắng */
+}
+
+.sidebar ul {
+list-style-type: none;
+padding: 0;
+}
+
+.sidebar ul li {
+padding: 10px;
+}
+
+.sidebar ul li a {
+color: #333;
+
+text-decoration: none;
+}
+
+.sidebar ul li a:hover{
+  background-color: azure;
+}
+
+.main-content {
+flex: 1;
+padding: 20px;
+}
+
+/* Định dạng cho menu dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Định dạng cho nút mở menu dropdown */
+.dropdown .dropbtn {
+  color: #333;
+  background-color: #dddddd;
+  padding: 0px;
+  text-decoration: none;
+}
+
+/* Định dạng cho nội dung menu dropdown */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #dddddd;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Hiển thị menu dropdown khi click */
+.dropdown-content.show {
+  display: block;
+}
+
+/* Định dạng cho các mục trong menu dropdown */
+.dropdown-content a {
+  color: #333;
+  padding: 5px 7px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Định dạng cho các mục khi hover */
+.dropdown-content a:hover {
+  background-color: #dddddd;
+}
+
+.arrow {
+  display: inline-block; /* Cho phép căn chỉnh vị trí */
+  vertical-align: middle; /* Đặt vị trí dọc giữa */
+  margin-left: 5px; /* Khoảng cách giữa chữ "Dropdown" và hình ảnh */
+}
+.arrow img {
+  max-height: 1em; /* Chiều cao tối đa của hình ảnh tương đương với kích thước của dòng chữ */
+  max-width: 1em; /* Chiều rộng tối đa của hình ảnh tương đương với kích thước của dòng chữ */
+}
+
+
+/**/
+
+table {
+  border-collapse: collapse; /* Gộp viền của các ô lại với nhau */
+  width: 100%; /* Chiều rộng của bảng */
+  border: 1px solid #dddddd; /* Viền của bảng */
+  table-layout: auto;
+}
+
+th, td {
+  padding: 12px; /* Khoảng cách giữa nội dung và viền */
+  text-align: center; /* Căn lề nội dung sang trái */
+}
+
+th {
+  background-color: #fff000; /* Màu nền cho tiêu đề cột */
+}
+
+th:not(:last-child),
+td:not(:last-child) {
+  border-right: 1px solid #dddddd; /* Viền bên phải của các ô, trừ ô cuối cùng */
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd; /* Màu nền xen kẽ cho các hàng */
+}
+
+tr:hover {
+  background-color: #dddddd; /* Màu nền khi di chuột qua */
+}
+
+.currency {
+  font-weight: bold;
+  color: #333; /* Màu của đơn vị tiền tệ */
+  line-height: 1; /* Đặt chiều cao dòng bằng với kích thước của chữ */
+  margin-left: 2px; /* Khoảng cách giữa số và đơn vị tiền tệ */
+}

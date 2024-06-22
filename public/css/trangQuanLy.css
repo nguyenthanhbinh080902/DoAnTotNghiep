@@ -1,0 +1,45 @@
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-size: large;
+}
+
+nav ul {
+list-style-type: none;
+display: flex;
+}
+
+nav ul li {
+margin-right: 5px; 
+}
+
+.navbar1 {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #333;
+padding: 10px 20px;
+height: 80px;
+
+}
+
+.logo a {
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+}
+
+.menu {
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+.menu li a {
+color: #fff;
+padding: 10px 12px;
+text-decoration: none;
+}
